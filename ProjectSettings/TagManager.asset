@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - BoundsConfner
+  - BoundsConfiner
   layers:
   - Default
   - TransparentFX
@@ -64,4 +66,7 @@ TagManager:
     locked: 0
   - name: Front2
     uniqueID: 2319979931
+    locked: 0
+  - name: collisions
+    uniqueID: 1305349905
     locked: 0

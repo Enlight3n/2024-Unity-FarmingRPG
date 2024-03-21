@@ -31,3 +31,10 @@ public enum Direction
     right,
     none
 }
+
+public enum SceneName
+{
+    主菜单,
+    玩家场景,
+    农场,
+}
