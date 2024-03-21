@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground_Tile
+    uniqueID: 1380497767
+    locked: 0
+  - name: Ground_House
+    uniqueID: 3824376635
+    locked: 0
+  - name: Ground3
+    uniqueID: 1606015873
+    locked: 0
+  - name: GroundDecoration1
+    uniqueID: 2459406769
+    locked: 0
+  - name: GroundDecoration2
+    uniqueID: 98770553
+    locked: 0
+  - name: Instance
+    uniqueID: 1525173937
+    locked: 0
+  - name: Front1
+    uniqueID: 1928417401
+    locked: 0
+  - name: Front2
+    uniqueID: 2319979931
+    locked: 0
