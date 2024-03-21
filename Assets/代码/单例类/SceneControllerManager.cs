@@ -13,6 +13,8 @@ public class SceneControllerManager : SingletonMonoBehaviour<SceneControllerMana
     [SerializeField] private Image faderImage = null;
     public SceneName startingSceneName;
 
+    #region 公有函数
+
     //只有这个函数是public的，从外部调用也是这个函数，传入欲场景名称和玩家要移动到的新位置即可
     public void FadeAndLoadScene(string sceneName, Vector3 spawnPosition)
     {
@@ -21,6 +23,9 @@ public class SceneControllerManager : SingletonMonoBehaviour<SceneControllerMana
             StartCoroutine(FadeAndSwitchScene(sceneName, spawnPosition));
         }
     }
+
+    #endregion
+
 
     #region 私有函数
     
@@ -64,7 +69,6 @@ public class SceneControllerManager : SingletonMonoBehaviour<SceneControllerMana
         yield return SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
         
         Scene newlyLoadScene = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
-
         SceneManager.SetActiveScene(newlyLoadScene);
     }
     
@@ -102,7 +106,7 @@ public class SceneControllerManager : SingletonMonoBehaviour<SceneControllerMana
 
         EventHandler.CallAfterSceneLoadEvent();
         
-        // SaveLoadManager.Instance.ReStoreCurrentSceneData();
+        //SaveLoadManager.Instance.ReStoreCurrentSceneData();
 
         StartCoroutine(Fade(0f));
     }

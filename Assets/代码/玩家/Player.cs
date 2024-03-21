@@ -110,22 +110,22 @@ public class Player : SingletonMonoBehaviour<Player>
         // afterPickAnimationPause = new WaitForSeconds(Settings.afterPickAnimationPause);
     }
     
-    // private void OnDisable()
-    // {
-    //     ISavableDeregister();
-    //     
-    //     EventHandler.BeforeSceneUnloadFadeOutEvent -= DisablePlayerInputAndResetMovement;
-    //     EventHandler.AfterSceneLoadFadeInEvent -= EnablePlayerInput;
-    // }
-    //
-    //
-    // private void OnEnable()
-    // {
-    //     ISavableRegister();
-    //
-    //     EventHandler.BeforeSceneUnloadFadeOutEvent += DisablePlayerInputAndResetMovement;
-    //     EventHandler.AfterSceneLoadFadeInEvent += EnablePlayerInput;
-    // }
+    private void OnDisable()
+    {
+        // ISavableDeregister();
+        
+        EventHandler.BeforeSceneUnloadFadeOutEvent -= DisablePlayerInputAndResetMovement;
+        EventHandler.AfterSceneLoadFadeInEvent -= EnablePlayerInput;
+    }
+    
+    
+    private void OnEnable()
+    {
+        // ISavableRegister();
+    
+        EventHandler.BeforeSceneUnloadFadeOutEvent += DisablePlayerInputAndResetMovement;
+        EventHandler.AfterSceneLoadFadeInEvent += EnablePlayerInput;
+    }
     
     
     private void Update()

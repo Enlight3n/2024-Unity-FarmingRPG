@@ -129,7 +129,7 @@ public class MovementAnimController : MonoBehaviour
 
     private void AnimationEventPlayFootstepSound()
     {
-        // AudioManager.Instance.PlaySound(SoundName.effectFootstepHardGround);
+        AudioManager.Instance.PlaySound(SoundName.脚步声重);
     }
 }
 

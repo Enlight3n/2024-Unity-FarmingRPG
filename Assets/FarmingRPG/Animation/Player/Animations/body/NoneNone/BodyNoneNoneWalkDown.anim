@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BodyNoneNoneWalkDown
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -91,7 +91,7 @@ AnimationClip:
   - time: 0.5
     functionName: AnimationEventPlayFootstepSound
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 11500000, guid: 44379a5a562a17a42b7c035f23a45324, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
