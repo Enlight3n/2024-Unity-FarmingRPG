@@ -18,6 +18,18 @@ public enum Season
     count
 }
 
+public enum Week
+{
+    周一,
+    周二,
+    周三,
+    周四,
+    周五,
+    周六,
+    周日,
+    Count,
+
+}
 public enum HarvestActionEffect
 {
 
@@ -111,3 +123,40 @@ public enum SoundName
     
     BGM2 = 2010
 }
+
+public enum 手臂动画
+{
+    none,
+    举起,
+    锄地,
+    挖矿,
+    斧头,
+    镰刀,
+    浇水,
+    count
+}
+
+public enum 角色动画部位
+{
+    none,
+    身体,
+    头发,
+    帽子,
+    手臂,
+    工具,
+    工具特效,
+}
+
+public enum 角色动画类型
+{
+    none,
+    锄头,
+    斧头,
+    镐子,
+    镰刀,
+    水壶,
+    举起,
+}
+
+
+

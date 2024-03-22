@@ -1,0 +1,2069 @@
+fileFormatVersion: 2
+guid: 97d653a941674174ca38a8a6022a21fc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cursors.zh-CN_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2145
+        width: 704
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d170ef110bb1e246a1aff077077d304
+      internalID: -1145854602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2134
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7990384be0975fe45a813b812117df8c
+      internalID: 2081297382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2139
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d54055a7558b34d8b1d50a67f2be3c
+      internalID: 1654531273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_3
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2047
+        width: 278
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56435200d95e506428aae6c7a96308e1
+      internalID: 1229412012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 2116
+        width: 93
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838e9ddfa4725e941b361c7c36fbabaf
+      internalID: 1048811772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2111
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710b84e474f844441b9683cba0e23003
+      internalID: 388876643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2095
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fca496502d4ac04189ce3d38cd05ed5
+      internalID: 1257866120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2095
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94486965e710847459285a2085755702
+      internalID: -684080310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2111
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da06ac398a7eeb49acdc21c4cd287fb
+      internalID: 1372805816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2111
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca196baef2c3c94ebb81ac09fff08af
+      internalID: 74761154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_10
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2111
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e469fed5df089408ef48bbae65ba5d
+      internalID: 239896586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_11
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 2111
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d3bcb10e900ef40bbc23552c3957d8
+      internalID: -1267174702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_12
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2032
+        width: 66
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f06ef3f31be4d84c86db45f46086b47
+      internalID: -242766602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2114
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662e0cc95b7d4f343ad02c1dd3dc55f2
+      internalID: -1124032015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_14
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2114
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d427d3796ed9a3d4fa24d19640f8ada1
+      internalID: 1804171640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_15
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2107
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa66d455eb9429419fb5c9bbc713e49
+      internalID: -1666676185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_16
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2114
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b28e2e1dc275548b370ccc1013b009
+      internalID: -1197290476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_17
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2114
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7bd663d89508940b001f4030c2e598
+      internalID: 346549474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2095
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d143386483b0174ea5022f53c04d843
+      internalID: -381917524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2067
+        width: 138
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e19e3e63675d247b5683241fcf7b1b
+      internalID: -2017904630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_20
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2099
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebe601acf87f494fa495511b3967d87
+      internalID: 2043922243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_21
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 2095
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3dc88422f2f254cb25c7a35fccf783
+      internalID: -2067281272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_22
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 2099
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217e853f393543a4da7e87f54616c53e
+      internalID: -117044724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_23
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2063
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd73cad7923c35f43b27fb3fdbc63d27
+      internalID: 2093999034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_24
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 2063
+        width: 7
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d2741836b7a59418f5f24d5694dd07
+      internalID: -1331672096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2068
+        width: 94
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad22f9f90c381146b053e2309edd380
+      internalID: 1364831343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_26
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2083
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e31f5dbe98b3a046995b7d0672652fd
+      internalID: 724671347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_27
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2083
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adb118d861824c478d8410c308847da
+      internalID: -776113335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_28
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 2083
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074885455308f0c48801f517c691c605
+      internalID: -1004109863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_29
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2075
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b1b677f6e361849b1c339904bfce83
+      internalID: -1483431375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_30
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2070
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae7dad3c0c0ca44eb31ee82d3acb115
+      internalID: -2095337399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_31
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2070
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e648c129683aec488ea085c009047f4
+      internalID: -1048109983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2011
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea406e247ee1584798e8c0a97715535
+      internalID: 246798474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_33
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1979
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645b380f0f42f3a48bfe1eeeef222f5f
+      internalID: 1670173112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_34
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2003
+        width: 424
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cc7a3ae4234f74780d032b54a7b5c4
+      internalID: -154858701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_35
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2032
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd3873d723f0a8459038edf47d51f65
+      internalID: 389113640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_36
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 2014
+        width: 69
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592122518e8b01a44b8b42530bd808b2
+      internalID: 2056326765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_37
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2007
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5bd65da32d6c444b4b45ac97e46f1f
+      internalID: -1884009443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_38
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1947
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cfe738befc07543a339f092bd95a9f
+      internalID: 1142553880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_39
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1902
+        width: 164
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1f65f739a957944967313e03218c57
+      internalID: 1558791986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_40
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1784
+        width: 72
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df7b2ef6920d484e8e92e5d53819a50
+      internalID: -1336771056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_41
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1981
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da7de2b4c21aa84f978c5b03a85f97b
+      internalID: -1523549356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_42
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1968
+        width: 108
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e121d3055b9d66a4a830d42b7eccd036
+      internalID: 2094484126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_43
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1982
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f9dd9a7292e2548b9b5e6e2b5324dd
+      internalID: 1379857885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_62
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 681
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdf78c55c1d90f4e8ea560f5cb039ea
+      internalID: 1634982607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_63
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 677
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a3618f6f0131b46b541ce1778f94de
+      internalID: -1790270733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_64
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 680
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8a90ba7c029464eacc630d1d5d1b70
+      internalID: 190167871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_65
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 675
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefb1da8a2e414e47a8d4d0e7eac3043
+      internalID: -337744307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_67
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 668
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23b6632473b7b04999503e997449a9d
+      internalID: 118171012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_68
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 667
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23abe03b74ae9840a55ea718c4dda7b
+      internalID: 1031896304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_69
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 669
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f82ed180bca534cb8ea9c7c86cb617
+      internalID: -594559636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_70
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 669
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c46afac79e5d57468fde090c175bc13
+      internalID: 1719101092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_71
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 664
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a913a63b3ad684dbbc95bf393b3dd7
+      internalID: 8930239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_72
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 660
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4caf3339501bf824891ca946d0e0dd76
+      internalID: -1181375636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_73
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 668
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f040731ec0307e439c45f9db9edc74d
+      internalID: 958446706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_74
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 665
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794b056718c96694288ef627cb43cff1
+      internalID: 1205289500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_75
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 668
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f7940d4d682e24e98a0b1537dd680e
+      internalID: -2051828036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_76
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 665
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48009c3e2c32ba40bb194133ff822b4
+      internalID: -25298623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_77
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 624
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abf11270bfbf1b4e8de7516bf1112ec
+      internalID: 2072569782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_78
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 657
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab67f03dcb3b754899192fd470f9d31
+      internalID: 129482645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_79
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 655
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6767b1c455d3d245a7787d2b3a5e8d3
+      internalID: 1324230770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_80
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 653
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdb3638fd8cdf543ae746c9a015cfa5
+      internalID: 2137840817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_81
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 649
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9458c68997c744197db460a121a16e
+      internalID: -2102919363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_82
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 652
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483f54696745b5d469a4c09f4a4c2286
+      internalID: 1347259000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_83
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 657
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0ae5113c1af6341a17afc91c8d37a7
+      internalID: 839114306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_84
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 650
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dca6463e2b9384aa3e7acaea9e851e
+      internalID: -123555622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_85
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 648
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c467a9551cb8f40929bb67e9ad694e
+      internalID: 851563355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_86
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 651
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee20c24a1c647e45b427217bef50355
+      internalID: -824229428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_87
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 643
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de4585b1dd80dc40966396e5bcc237f
+      internalID: -1743231511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_88
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 647
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33834d8f5f0484408bdcaf4a6dad0b6
+      internalID: -701058015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_89
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 638
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf091f7aeddfca34787fb6c49b8674a4
+      internalID: 327742427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_90
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 636
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c350285f46ce2df4fae10e8a21919a2e
+      internalID: 2091994665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_91
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 631
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a8c4fc4a5e6c348b838354520ef3e5
+      internalID: -921856031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_92
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 636
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22be97f19751aae4191ca6459e309504
+      internalID: -941308521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_93
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 622
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66746833c57fd644cbe5ae6c66c01a41
+      internalID: -1142144360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_94
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 623
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa71cc2a5189b346ab3c61613fa067d
+      internalID: 1389319904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_95
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 627
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9455b229277043b42a08d8dbccb5cd21
+      internalID: 1654561321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_96
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 621
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f7c074a1456ee418dc37e1a7052efa
+      internalID: 1894798225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_97
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 627
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1748cb4c3d4928043bc29593ab59491c
+      internalID: 278895195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_98
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 621
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb54075ded334a0429aa1067c048e369
+      internalID: 857955854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_99
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 616
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e693d042ba207444957666e1f2dde63
+      internalID: 861552746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_101
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 618
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac80a70d0f7e50843b4adb184f4f06d8
+      internalID: -1109092335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_103
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 572
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd48e95fddbd20348bb9e09f253f2dd5
+      internalID: -224288018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_108
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 502
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f6baa3061fd1446995e67c053e732b
+      internalID: -1704010985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_109
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 496
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1705b4f083b9a7c4596f902869418269
+      internalID: -898146350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_110
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 413
+        width: 53
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fff9c0a7be4970479f62d43951dc5a2
+      internalID: 2057681085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cursors.zh-CN_113
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 471
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d40c8b513cc0fa4ca2bdc03f4956793
+      internalID: -723405160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cursors.zh-CN_0: -1145854602
+      Cursors.zh-CN_1: 2081297382
+      Cursors.zh-CN_10: 239896586
+      Cursors.zh-CN_100: 882860703
+      Cursors.zh-CN_101: -1109092335
+      Cursors.zh-CN_102: -1027234023
+      Cursors.zh-CN_103: -224288018
+      Cursors.zh-CN_104: 1256860951
+      Cursors.zh-CN_105: 767447286
+      Cursors.zh-CN_106: 1304119942
+      Cursors.zh-CN_107: -1093438724
+      Cursors.zh-CN_108: -1704010985
+      Cursors.zh-CN_109: -898146350
+      Cursors.zh-CN_11: -1267174702
+      Cursors.zh-CN_110: 2057681085
+      Cursors.zh-CN_111: 852999685
+      Cursors.zh-CN_112: 1979943156
+      Cursors.zh-CN_113: -723405160
+      Cursors.zh-CN_114: 815621928
+      Cursors.zh-CN_115: -850730207
+      Cursors.zh-CN_116: -633315853
+      Cursors.zh-CN_117: -446279049
+      Cursors.zh-CN_118: -400477891
+      Cursors.zh-CN_12: -242766602
+      Cursors.zh-CN_13: -1124032015
+      Cursors.zh-CN_14: 1804171640
+      Cursors.zh-CN_15: -1666676185
+      Cursors.zh-CN_16: -1197290476
+      Cursors.zh-CN_17: 346549474
+      Cursors.zh-CN_18: -381917524
+      Cursors.zh-CN_19: -2017904630
+      Cursors.zh-CN_2: 1654531273
+      Cursors.zh-CN_20: 2043922243
+      Cursors.zh-CN_21: -2067281272
+      Cursors.zh-CN_22: -117044724
+      Cursors.zh-CN_23: 2093999034
+      Cursors.zh-CN_24: -1331672096
+      Cursors.zh-CN_25: 1364831343
+      Cursors.zh-CN_26: 724671347
+      Cursors.zh-CN_27: -776113335
+      Cursors.zh-CN_28: -1004109863
+      Cursors.zh-CN_29: -1483431375
+      Cursors.zh-CN_3: 1229412012
+      Cursors.zh-CN_30: -2095337399
+      Cursors.zh-CN_31: -1048109983
+      Cursors.zh-CN_32: 246798474
+      Cursors.zh-CN_33: 1670173112
+      Cursors.zh-CN_34: -154858701
+      Cursors.zh-CN_35: 389113640
+      Cursors.zh-CN_36: 2056326765
+      Cursors.zh-CN_37: -1884009443
+      Cursors.zh-CN_38: 1142553880
+      Cursors.zh-CN_39: 1558791986
+      Cursors.zh-CN_4: 1048811772
+      Cursors.zh-CN_40: -1336771056
+      Cursors.zh-CN_41: -1523549356
+      Cursors.zh-CN_42: 2094484126
+      Cursors.zh-CN_43: 1379857885
+      Cursors.zh-CN_44: 1643593077
+      Cursors.zh-CN_45: -1242621680
+      Cursors.zh-CN_46: -1524810409
+      Cursors.zh-CN_47: -1698673744
+      Cursors.zh-CN_48: 1699972672
+      Cursors.zh-CN_49: 182330294
+      Cursors.zh-CN_5: 388876643
+      Cursors.zh-CN_50: 1583908413
+      Cursors.zh-CN_51: -820296340
+      Cursors.zh-CN_52: 981817691
+      Cursors.zh-CN_53: 773983827
+      Cursors.zh-CN_54: -1484176231
+      Cursors.zh-CN_55: 1198372061
+      Cursors.zh-CN_56: -1960231458
+      Cursors.zh-CN_57: -302605925
+      Cursors.zh-CN_58: -1938661272
+      Cursors.zh-CN_59: -185839739
+      Cursors.zh-CN_6: 1257866120
+      Cursors.zh-CN_60: -946955369
+      Cursors.zh-CN_61: 85014851
+      Cursors.zh-CN_62: 1634982607
+      Cursors.zh-CN_63: -1790270733
+      Cursors.zh-CN_64: 190167871
+      Cursors.zh-CN_65: -337744307
+      Cursors.zh-CN_66: 205595352
+      Cursors.zh-CN_67: 118171012
+      Cursors.zh-CN_68: 1031896304
+      Cursors.zh-CN_69: -594559636
+      Cursors.zh-CN_7: -684080310
+      Cursors.zh-CN_70: 1719101092
+      Cursors.zh-CN_71: 8930239
+      Cursors.zh-CN_72: -1181375636
+      Cursors.zh-CN_73: 958446706
+      Cursors.zh-CN_74: 1205289500
+      Cursors.zh-CN_75: -2051828036
+      Cursors.zh-CN_76: -25298623
+      Cursors.zh-CN_77: 2072569782
+      Cursors.zh-CN_78: 129482645
+      Cursors.zh-CN_79: 1324230770
+      Cursors.zh-CN_8: 1372805816
+      Cursors.zh-CN_80: 2137840817
+      Cursors.zh-CN_81: -2102919363
+      Cursors.zh-CN_82: 1347259000
+      Cursors.zh-CN_83: 839114306
+      Cursors.zh-CN_84: -123555622
+      Cursors.zh-CN_85: 851563355
+      Cursors.zh-CN_86: -824229428
+      Cursors.zh-CN_87: -1743231511
+      Cursors.zh-CN_88: -701058015
+      Cursors.zh-CN_89: 327742427
+      Cursors.zh-CN_9: 74761154
+      Cursors.zh-CN_90: 2091994665
+      Cursors.zh-CN_91: -921856031
+      Cursors.zh-CN_92: -941308521
+      Cursors.zh-CN_93: -1142144360
+      Cursors.zh-CN_94: 1389319904
+      Cursors.zh-CN_95: 1654561321
+      Cursors.zh-CN_96: 1894798225
+      Cursors.zh-CN_97: 278895195
+      Cursors.zh-CN_98: 857955854
+      Cursors.zh-CN_99: 861552746
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -37,41 +37,40 @@ public static class EventHandler
             idleUp, idleDown, idleRight, idleLeft);
     }
 
-    
-    
-    
+
+
     #region 处理时间推进的事件
     
-    public static event Action<int, Season, int, string, int, int, int> AdvanceGameMinuteEvent;
-    public static void CallAdvanceGameMinuteEvent(int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek,
+    public static event Action<int, Season, int, Week, int, int, int> AdvanceGameMinuteEvent;
+    public static void CallAdvanceGameMinuteEvent(int gameYear, Season gameSeason, int gameDay, Week gameDayOfWeek,
         int gameHour, int gameMinute, int gameSecond)
     {
         AdvanceGameMinuteEvent?.Invoke(gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond);
     }
     
-    public static event Action<int, Season, int, string, int, int, int> AdvanceGameHourEvent;
-    public static void CallAdvanceGameHourEvent(int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek,
+    public static event Action<int, Season, int, Week, int, int, int> AdvanceGameHourEvent;
+    public static void CallAdvanceGameHourEvent(int gameYear, Season gameSeason, int gameDay, Week gameDayOfWeek,
         int gameHour, int gameMinute, int gameSecond)
     {
         AdvanceGameHourEvent?.Invoke(gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond);
     }
     
-    public static event Action<int, Season, int, string, int, int, int> AdvanceGameDayEvent;
-    public static void CallAdvanceGameDayEvent(int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek,
+    public static event Action<int, Season, int, Week, int, int, int> AdvanceGameDayEvent;
+    public static void CallAdvanceGameDayEvent(int gameYear, Season gameSeason, int gameDay, Week gameDayOfWeek,
         int gameHour, int gameMinute, int gameSecond)
     {
         AdvanceGameDayEvent?.Invoke(gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond);
     }
     
-    public static event Action<int, Season, int, string, int, int, int> AdvanceGameSeasonEvent;
-    public static void CallAdvanceGameSeasonEvent(int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek,
+    public static event Action<int, Season, int, Week, int, int, int> AdvanceGameSeasonEvent;
+    public static void CallAdvanceGameSeasonEvent(int gameYear, Season gameSeason, int gameDay, Week gameDayOfWeek,
         int gameHour, int gameMinute, int gameSecond)
     {
         AdvanceGameSeasonEvent?.Invoke(gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond);
     }
     
-    public static event Action<int, Season, int, string, int, int, int> AdvanceGameYearEvent;
-    public static void CallAdvanceGameYearEvent(int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek,
+    public static event Action<int, Season, int, Week, int, int, int> AdvanceGameYearEvent;
+    public static void CallAdvanceGameYearEvent(int gameYear, Season gameSeason, int gameDay, Week gameDayOfWeek,
         int gameHour, int gameMinute, int gameSecond)
     {
         AdvanceGameYearEvent?.Invoke(gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond);
@@ -111,6 +110,20 @@ public static class EventHandler
     }
     
     #endregion
+
+
+    
+    #region 更新UI
+    
+    //这个事件用来当玩家拾取的时候，对物品栏状态进行更新
+    public static event Action<List<InventoryItem>> InventoryUpdatedEvent;
+    public static void CallInventoryUpdatedEvent(List<InventoryItem> inventoryList)
+    {
+        InventoryUpdatedEvent?.Invoke(inventoryList);
+    }
+    
+    #endregion
+
     
     
     
@@ -120,7 +133,6 @@ public static class EventHandler
     {
         DropSelectedItemEvent?.Invoke();
     }
-
 
     public static event Action<Vector3, HarvestActionEffect> HarvestActionEffectEvent;
     public static void CallHarvestActionEffectEvent(Vector3 effectPosition, HarvestActionEffect harvestActionEffect)

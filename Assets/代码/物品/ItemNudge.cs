@@ -62,17 +62,17 @@ public class ItemNudge : MonoBehaviour
 
         for (int i = 0; i < 4; i++)
         {
-            gameObject.transform.GetChild(0).Rotate(0f,0f,2f);
+            gameObject.transform.Rotate(0f,0f,2f);
             yield return pause;
         }
         
         for (int i = 0; i < 5; i++)
         {
-            gameObject.transform.GetChild(0).Rotate(0f,0f,-2f);
+            gameObject.transform.Rotate(0f,0f,-2f);
             yield return pause;
         }
 
-        gameObject.transform.GetChild(0).Rotate(0f, 0f, 2f);
+        gameObject.transform.Rotate(0f, 0f, 2f);
         yield return pause;
 
         isAnimating = false;
@@ -86,17 +86,17 @@ public class ItemNudge : MonoBehaviour
 
         for (int i = 0; i < 4; i++)
         {
-            gameObject.transform.GetChild(0).Rotate(0f,0f,-2f);
+            gameObject.transform.Rotate(0f,0f,-2f);
             yield return pause;
         }
         
         for (int i = 0; i < 5; i++)
         {
-            gameObject.transform.GetChild(0).Rotate(0f,0f,2f);
+            gameObject.transform.Rotate(0f,0f,2f);
             yield return pause;
         }
 
-        gameObject.transform.GetChild(0).Rotate(0f, 0f, -2f);
+        gameObject.transform.Rotate(0f, 0f, -2f);
         yield return pause;
 
         isAnimating = false;

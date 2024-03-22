@@ -33,14 +33,12 @@ public class Player : SingletonMonoBehaviour<Player>
     private bool isPickingUp;
     private bool isPickingDown;
     
-    
     //移动速度
     private float movementSpeed;
     
-
-    
     #endregion
 
+    
     #region 存档相关
 
     //玩家方向记录，以便保存
@@ -49,8 +47,10 @@ public class Player : SingletonMonoBehaviour<Player>
     
     #endregion
     
+    [SerializeField] public SpriteRenderer equippedItemSpriteRenderer = null;
     
-    
+    private AnimationOverrides animationOverrides;
+
     private Camera mainCamera;
     
     private Rigidbody2D _rigidbody2D;
@@ -77,43 +77,24 @@ public class Player : SingletonMonoBehaviour<Player>
 
         mainCamera = Camera.main;
         
-
-
-        // animationOverrides = GetComponentInChildren<AnimationOverrides>();
-        //
-        // toolCharacterAttribute =
-        //     new CharacterAttribute(CharacterPartAnimator.tool, PartVariantColour.none, PartVariantType.hoe);
-        //
-        // armsCharacterAttribute =
-        //     new CharacterAttribute(CharacterPartAnimator.arms, PartVariantColour.none, PartVariantType.none);
-        //
-        // characterAttributeCustomisationList = new List<CharacterAttribute>();
-        //
-        //
-        // /*游戏保存相关*/
-        // ISavableUniqueID = GetComponent<GenerateGUID>().GUID;
-        // GameObjectSave = new GameObjectSave();
+        animationOverrides = GetComponentInChildren<AnimationOverrides>();
+        
     }
     
     private void Start()
     {
-        // gridCursor = FindObjectOfType<GridCursor>();
-        //
-        // cursor = FindObjectOfType<Cursor>();
         
-        // //从settings中赋值
-        // afterUseToolAnimationPause = new WaitForSeconds(Settings.afterUseToolAnimationPause);
-        // useToolAnimationPause = new WaitForSeconds(Settings.useToolAnimationPause);
-        // liftToolAnimationPause = new WaitForSeconds(Settings.liftToolAnimationPause);
-        // afterLiftToolAnimationPause = new WaitForSeconds(Settings.afterLiftToolAnimationPause);
-        // pickAnimationPause = new WaitForSeconds(Settings.pickAnimationPause);
-        // afterPickAnimationPause = new WaitForSeconds(Settings.afterPickAnimationPause);
+        /*//从settings中赋值
+        afterUseToolAnimationPause = new WaitForSeconds(Settings.afterUseToolAnimationPause);
+        useToolAnimationPause = new WaitForSeconds(Settings.useToolAnimationPause);
+        liftToolAnimationPause = new WaitForSeconds(Settings.liftToolAnimationPause);
+        afterLiftToolAnimationPause = new WaitForSeconds(Settings.afterLiftToolAnimationPause);
+        pickAnimationPause = new WaitForSeconds(Settings.pickAnimationPause);
+        afterPickAnimationPause = new WaitForSeconds(Settings.afterPickAnimationPause);*/
     }
     
     private void OnDisable()
     {
-        // ISavableDeregister();
-        
         EventHandler.BeforeSceneUnloadFadeOutEvent -= DisablePlayerInputAndResetMovement;
         EventHandler.AfterSceneLoadFadeInEvent -= EnablePlayerInput;
     }
@@ -121,8 +102,6 @@ public class Player : SingletonMonoBehaviour<Player>
     
     private void OnEnable()
     {
-        // ISavableRegister();
-    
         EventHandler.BeforeSceneUnloadFadeOutEvent += DisablePlayerInputAndResetMovement;
         EventHandler.AfterSceneLoadFadeInEvent += EnablePlayerInput;
     }
@@ -137,7 +116,8 @@ public class Player : SingletonMonoBehaviour<Player>
             PlayerMovementInput(); //移动输入，根据键盘输入的情况设定动画参数
 
             PlayerWalkInput(); //检查是否行走，若按住shift，则改变人物移动速度和动画参数
-
+            
+            
             //PlayerClickInput();
             
             EventHandler.CallMovementEvent(xInput, yInput,
@@ -152,6 +132,7 @@ public class Player : SingletonMonoBehaviour<Player>
         }
 
         PlayerTestInput(); //开发者测试功能
+        
     }
 
     
@@ -221,7 +202,7 @@ public class Player : SingletonMonoBehaviour<Player>
             }
             else
             {
-                playerDirection = Direction.right;
+                playerDirection = Direction.up;
             }
         }
         else if(yInput == 0 && xInput == 0)
@@ -310,19 +291,48 @@ public class Player : SingletonMonoBehaviour<Player>
     
     private void PlayerTestInput()
     {
-        // if (Input.GetKey(KeyCode.T))
-        // {
-        //     TimeManager.Instance.TestAdvanceGameMinute();
-        // }
-        //
-        // if (Input.GetKeyDown(KeyCode.G))
-        // {
-        //     TimeManager.Instance.TestAdvanceGameDay();
-        // }
-        //
-        // if (Input.GetKeyDown(KeyCode.L))
-        // {
-        //     SceneControllerManager.Instance.FadeAndLoadScene(SceneName.Scene1_Farm.ToString(),transform.position);
-        // }
+        if (Input.GetKey(KeyCode.T))
+        {
+            TimeManager.Instance.TestAdvanceGameMinute();
+        }
+        
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            TimeManager.Instance.TestAdvanceGameDay();
+        }
     }
+    
+    public Vector3 GetPlayerViewportPosition()
+    {
+        //Camera.main.WorldToScreenPoint()函数接收一个世界空间下的位置，返回其所在的屏幕空间位置，以及其相对于摄像机的深度信息
+        return mainCamera.WorldToViewportPoint(transform.position);
+    }
+    
+    #region 处理动画覆盖控制器的两个函数
+    //清除举起物体的动画
+    public void ClearCarriedItem()
+    {
+        equippedItemSpriteRenderer.sprite = null;
+        equippedItemSpriteRenderer.color = new Color(1f, 1f, 1f, 0f);
+        animationOverrides.ApplyCharacterCustomisationParameters(角色动画部位.手臂, 
+            角色动画类型.举起);
+        isCarrying = false;
+    }
+    //显示举起物体的动画
+    public void ShowCarriedItem(int itemCode)
+    {
+        ItemDetails itemDetails = InventoryManager.Instance.GetItemDetails(itemCode);
+
+        if (itemDetails != null)
+        {
+            equippedItemSpriteRenderer.sprite = itemDetails.itemSprite;
+            equippedItemSpriteRenderer.color = new Color(1f, 1f, 1f, 1f);
+            
+            animationOverrides.ApplyCharacterCustomisationParameters (角色动画部位.手臂,
+                角色动画类型.举起);
+
+            isCarrying = true;
+        }
+    }
+    #endregion
 }
