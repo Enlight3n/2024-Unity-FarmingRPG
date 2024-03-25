@@ -1,9 +1,10 @@
 using UnityEngine;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
 
 
-public class TimeManager : SingletonMonoBehaviour<TimeManager>
+public class TimeManager : SingletonMonoBehaviour<TimeManager>, ISavable
 {
     private int gameYear = 1;
     private Season gameSeason = Season.春;
@@ -12,12 +13,11 @@ public class TimeManager : SingletonMonoBehaviour<TimeManager>
     private int gameMinute = 30;
     private int gameSecond = 0;
     private Week gameDayOfWeek = Week.周一;
+    
     public bool gameClockPaused = false;
     private float gameTick = 0f;
 
     
-    
-
     private void Start()
     {
         EventHandler.CallAdvanceGameMinuteEvent(
@@ -36,13 +36,14 @@ public class TimeManager : SingletonMonoBehaviour<TimeManager>
     
     private void OnEnable()
     {
+        IRegister();
         EventHandler.BeforeSceneUnloadEvent += BeforeSceneUnloadFadeOut;
         EventHandler.AfterSceneLoadEvent += AfterSceneLoadFadeIn;
     }
 
     private void OnDisable()
     {
-
+        IDeregister();
         EventHandler.BeforeSceneUnloadEvent -= BeforeSceneUnloadFadeOut;
         EventHandler.AfterSceneLoadEvent -= AfterSceneLoadFadeIn;
     }
@@ -158,6 +159,42 @@ public class TimeManager : SingletonMonoBehaviour<TimeManager>
         {
             UpdateGameSecond();
         }
+    }
+    
+    #endregion
+
+    #region ISavable
+
+    public void IRegister()
+    {
+        SaveLoadManager.Instance.iSavableObjectList.Add(this);
+    }
+
+    public void IDeregister()
+    {
+        SaveLoadManager.Instance.iSavableObjectList.Remove(this);
+    }
+
+    public void ISave(ref GameSave gameSave)
+    {
+        gameSave.timeSave.gameYear = gameYear;
+        gameSave.timeSave.gameSeason = gameSeason;
+        gameSave.timeSave.gameDay = gameDay;
+        gameSave.timeSave.gameHour = gameHour;
+        gameSave.timeSave.gameMinute = gameMinute;
+        gameSave.timeSave.gameSecond = gameSecond;
+        gameSave.timeSave.gameDayOfWeek = gameDayOfWeek;
+    }
+
+    public void ILoad(GameSave gameSave)
+    {
+        gameYear = gameSave.timeSave.gameYear;
+        gameSeason = gameSave.timeSave.gameSeason;
+        gameDay = gameSave.timeSave.gameDay;
+        gameHour = gameSave.timeSave.gameHour;
+        gameMinute = gameSave.timeSave.gameMinute;
+        gameSecond = gameSave.timeSave.gameSecond;
+        gameDayOfWeek = gameSave.timeSave.gameDayOfWeek;
     }
     
     #endregion

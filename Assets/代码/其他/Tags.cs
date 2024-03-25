@@ -4,12 +4,12 @@ public static class Tags
 {
     public const string BoundsConfiner = "BoundsConfiner";
     
-    public const string CropsParentTransform = "CropsParentTransform";
+    public const string CropsParentTransform = "作物父物体";
     
-    public const string ItemParentTransform = "ItemParentTransform";
+    public const string ItemParentTransform = "物品父物体";
     
-    public const string GroundDecoration1 = "GroundDecoration1";
+    public const string GroundDecoration1 = "锄地贴图";
     
-    public const string GroundDecoration2 = "GroundDecoration2";
+    public const string GroundDecoration2 = "浇水贴图";
     
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -8,7 +9,7 @@ using UnityEngine.PlayerLoop;
 /// InventoryManager用来保存玩家的物品
 /// </summary>
 
-public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
+public class InventoryManager : SingletonMonoBehaviour<InventoryManager>, ISavable
 {
     //保存物品的数据容器
     [SerializeReference] private SO_ItemList itemList = null;
@@ -23,13 +24,6 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
 
     //当前选中的物品的id
     private int selectedInventoryItem;
-    
-    
-    // //保存相关变量
-    // private string _iSavableUniqueID;
-    // public string ISavableUniqueID { get ;  set; } 
-    
-    
     
     private UIInventoryBar inventoryBar;
 
@@ -50,8 +44,21 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
         inventoryBar = FindObjectOfType<UIInventoryBar>();
     }
 
-    
-    
+
+    private void OnEnable()
+    {
+        IRegister();
+    }
+
+
+    private void OnDisable()
+    {
+        IDeregister();
+    }
+
+
+
+
     #region Awake初始化相关函数
     
     private void InitializeAll()
@@ -210,15 +217,7 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
             return null;
         }
     }
-
-
-    //给定物品类型，返回描述这个类型的string的文本
-    public string GetItemTypeDescription(ItemType itemType)
-    {
-        return itemType.ToString();
-    }
-
-
+    
     #endregion
 
     
@@ -313,6 +312,41 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
     }
     
     #endregion
+
+
+
+
+    #region 接口
+    public void IRegister()
+    {
+        SaveLoadManager.Instance.iSavableObjectList.Add(this);
+    }
+
+    public void IDeregister()
+    {
+        SaveLoadManager.Instance.iSavableObjectList.Remove(this);
+    }
+
+
+    public void ISave(ref GameSave gameSave)
+    {
+        gameSave.playerInventory = playerInventoryList;
+    }
+
+
+    public void ILoad(GameSave gameSave)
+    {
+        //清除玩家动作
+        Player.Instance.ClearCarriedItem();
+        
+        playerInventoryList = gameSave.playerInventory;
+        
+        //更新UI，不能调用EventHandler.CallInventoryUpdatedEvent(playerInventoryList);
+        inventoryBar.InventoryUpdated(playerInventoryList);
+    }
+    
+    #endregion
+    
 }
     
     

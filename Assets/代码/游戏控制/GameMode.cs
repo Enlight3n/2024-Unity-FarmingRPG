@@ -10,27 +10,23 @@ public class GameMode : MonoBehaviour
         Application.targetFrameRate = 60;
         
         
-        // SetScreenMode(true);
+        SetScreenMode(true);
         
-
     }
 
-    private void Start()
+
+
+    public void SetScreenMode(bool isFullScreen)
     {
-        
+        if (isFullScreen)
+        {
+            Screen.SetResolution(1920,1080,FullScreenMode.ExclusiveFullScreen,0);
+        }
+        else
+        {
+            Screen.SetResolution(1920,1080,FullScreenMode.Windowed,0);
+        }
     }
-
-    // public void SetScreenMode(bool isFullScreen)
-// {
-//     if (isFullScreen)
-//     {
-//         Screen.SetResolution(1920,1080,FullScreenMode.ExclusiveFullScreen,0);
-//     }
-//     else
-//     {
-//         Screen.SetResolution(1920,1080,FullScreenMode.Windowed,0);
-//     }
-// }
 }
 
 

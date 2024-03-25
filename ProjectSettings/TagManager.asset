@@ -5,7 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - BoundsConfiner
-  - ItemParentTransform
+  - "\u4F5C\u7269\u7236\u7269\u4F53"
+  - "\u7269\u54C1\u7236\u7269\u4F53"
+  - "\u9504\u5730\u8D34\u56FE"
+  - "\u6D47\u6C34\u8D34\u56FE"
   layers:
   - Default
   - TransparentFX

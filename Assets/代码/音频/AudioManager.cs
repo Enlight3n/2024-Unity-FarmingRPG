@@ -79,13 +79,13 @@ public class AudioManager : SingletonMonoBehaviour<AudioManager>
             if (currentSceneName == SceneName.室内)
             {
                 soundDictionary.TryGetValue(SoundName.BGM1, out musicSoundItem);
-                soundDictionary.TryGetValue(SoundName.室内噪声, out ambientSoundItem);
+                soundDictionary.TryGetValue(SoundName.室内环境声, out ambientSoundItem);
             }
 
             else
             {
                 soundDictionary.TryGetValue(SoundName.BGM2, out musicSoundItem);
-                soundDictionary.TryGetValue(SoundName.野外噪声1, out ambientSoundItem);
+                soundDictionary.TryGetValue(SoundName.野外环境声1, out ambientSoundItem);
             }
         }
 

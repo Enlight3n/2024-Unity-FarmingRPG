@@ -13,4 +13,9 @@ public class ItemDetails
     public ItemType itemType;
 
     public Sprite itemSprite;
+
+    public int itemUseRadius;
+    public int itemUseGridRadius;
+    
+    
 }

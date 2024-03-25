@@ -25,7 +25,7 @@ public class StatisticLine
 
             totalLine += nowLine;
         }
-
+        
         Debug.Log(String.Format("总代码行数(含空行)：{0}", totalLine));
     }
 }

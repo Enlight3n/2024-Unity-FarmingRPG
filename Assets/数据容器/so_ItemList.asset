@@ -16,65 +16,105 @@ MonoBehaviour:
   - itemCode: 1001
     itemName: "\u9550\u5B50"
     itemDescription: "\u7528\u6765\u6316\u77FF"
-    itemType: 0
+    itemType: 1
     itemSprite: {fileID: 21300094, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 1
   - itemCode: 1002
     itemName: "\u9504\u5934"
     itemDescription: "\u7528\u6765\u8015\u5730"
-    itemType: 1
+    itemType: 2
     itemSprite: {fileID: 21300052, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 1
   - itemCode: 1003
     itemName: "\u6C34\u58F6"
     itemDescription: "\u7528\u6765\u6D47\u6C34\uFF0C\u52A0\u5FEB\u4F5C\u7269\u751F\u957F"
-    itemType: 2
+    itemType: 3
     itemSprite: {fileID: 21300136, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 1
   - itemCode: 1004
     itemName: "\u65A7\u5934"
     itemDescription: "\u53EF\u4EE5\u7528\u6765\u780D\u6811"
-    itemType: 3
+    itemType: 4
     itemSprite: {fileID: 21300010, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 1
   - itemCode: 1005
     itemName: "\u9570\u5200"
     itemDescription: "\u540C\u6837\u7528\u6765\u5272\u8349\uFF0C\u9570\u5200\u7684\u8303\u56F4\u6BD4\u5176\u4ED6\u5DE5\u5177\u66F4\u5927"
-    itemType: 4
-    itemSprite: {fileID: 21300506, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
-  - itemCode: 2001
-    itemName: "\u5357\u74DC\u79CD\u5B50"
-    itemDescription: "\u53EF\u4EE5\u957F\u51FA\u5357\u74DC"
     itemType: 5
+    itemSprite: {fileID: 21300506, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemUseRadius: 2
+    itemUseGridRadius: 2
+  - itemCode: 1006
+    itemName: "\u83DC\u7BEE"
+    itemDescription: "\u7528\u6765\u6536\u83B7\u4F5C\u7269"
+    itemType: 6
+    itemSprite: {fileID: 21300504, guid: 853ac38383c680342ac7e688bf29b197, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 1
+  - itemCode: 2001
+    itemName: "\u6B27\u9632\u98CE\u79CD\u5B50"
+    itemDescription: "\u79CD\u4E0B\u53BB\u540E\u53EF\u4EE5\u957F\u51FA\u6B27\u9632\u98CE\uFF0C\u6536\u83B7\u540E\u4E5F\u53EF\u4EE5\u83B7\u5F97\u79CD\u5B50"
+    itemType: 11
     itemSprite: {fileID: 21300000, guid: 7da78110e28e0f74aaa3ef4a41f4c0ed, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 2
   - itemCode: 2002
     itemName: "\u5C0F\u6811\u82D7"
     itemDescription: "\u53EF\u4EE5\u957F\u6210\u5927\u6811"
-    itemType: 5
-    itemSprite: {fileID: 1465554382, guid: 7c4814bb54839744180105bcc1e78e27, type: 3}
+    itemType: 11
+    itemSprite: {fileID: 21300000, guid: 730e572c78cf0244ca0db36bb8f3af7f, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 2
   - itemCode: 3001
-    itemName: "\u5357\u74DC"
-    itemDescription: "\u56E0\u4E3A\u5176\u539F\u4EA7\u5730\u5728\u4E9A\u6D32\u5357\u90E8\u548C\u4E2D\u5357\u7F8E\u6D32\uFF0C\u81EA\u5357\u800C\u6765\u79F0\u4E4B\u4E3A\u201C\u5357\u74DC\u201D\u3002"
-    itemType: 6
-    itemSprite: {fileID: 21300000, guid: f0d720006ae6c9e468cc99a9f1713ba1, type: 3}
+    itemName: "\u6B27\u9632\u98CE"
+    itemDescription: "\u591A\u683D\u57F9\u4F9B\u98DF\u7528\uFF0C\u4E5F\u53EF\u4F5C\u9972\u6599\u6216\u917F\u9152"
+    itemType: 21
+    itemSprite: {fileID: 21300000, guid: 0a1268bf801d5304ebf16458d7309ac1, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 2
   - itemCode: 4001
     itemName: "\u9700\u8981\u6316\u6398\u7684\u77F3\u5934"
     itemDescription: "\u6316\u6398\u53EF\u4EE5\u5F97\u5230\u77F3\u5934"
-    itemType: 9
+    itemType: 51
     itemSprite: {fileID: 21300000, guid: 4fb548784c08c2c40b86a99493efa98d, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 0
   - itemCode: 5001
     itemName: "\u77F3\u5934"
     itemDescription: "\u5C0F\u7684\u77F3\u5757"
-    itemType: 7
+    itemType: 31
     itemSprite: {fileID: 21300000, guid: 7700e9e59e6f58e4598ea8f2e5a84cc1, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 0
   - itemCode: 5002
     itemName: "\u7EA4\u7EF4"
     itemDescription: "\u4ECE\u8349\u6536\u83B7\u800C\u6765"
-    itemType: 7
+    itemType: 31
     itemSprite: {fileID: 21300000, guid: e452dd2aa629f624390a9ba516a7c47e, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 0
   - itemCode: 5003
     itemName: "\u6728\u5934"
     itemDescription: "\u575A\u786C\u7684\u6728\u5934"
-    itemType: 7
+    itemType: 31
     itemSprite: {fileID: 21300000, guid: e26dc0d638731ec47abe9c4b3cae62ac, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 0
   - itemCode: 6001
     itemName: "\u8349"
     itemDescription: "\u8349"
-    itemType: 10
+    itemType: 61
     itemSprite: {fileID: 21300000, guid: 207ad99171e171b418bcaaa396d5a6f6, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 0
+  - itemCode: 6002
+    itemName: "\u6811"
+    itemDescription: 
+    itemType: 61
+    itemSprite: {fileID: 4789355601316357596, guid: d241c496741a12d4290e12ba81dd6724, type: 3}
+    itemUseRadius: 0
+    itemUseGridRadius: 0

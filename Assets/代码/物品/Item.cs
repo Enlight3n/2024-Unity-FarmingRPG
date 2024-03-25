@@ -29,7 +29,9 @@ public class Item : MonoBehaviour
     {
         if (itemCodeParam != 0)
         {
-            ItemDetails itemDetails = InventoryManager.Instance.GetItemDetails(itemCodeParam);
+            ItemCode = itemCodeParam;
+            
+            ItemDetails itemDetails = InventoryManager.Instance.GetItemDetails(ItemCode);
             
             //我们可以通过修改物品编码来自动更新图片，而不用预先准备好预制体
             _spriteRenderer.sprite = itemDetails.itemSprite;

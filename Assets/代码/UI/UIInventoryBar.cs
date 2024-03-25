@@ -1,8 +1,6 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.Serialization;
+
 
 public class UIInventoryBar : MonoBehaviour
 {
@@ -10,7 +8,7 @@ public class UIInventoryBar : MonoBehaviour
     [SerializeField] private Sprite blank16x16sprite = null;
     
     //声明一个UIInventorySlot数组，用来保存每个UIInventorySlot脚本
-    [SerializeField] private UIInventorySlot[] inventorySlot = null;
+    public UIInventorySlot[] inventorySlot = null;
     
     //预先制作好一个用来拖拽的预制体，拖拽赋值给InventoryBarDraggedItem，鼠标拖拽物品到场景中时，用InventoryBarDraggedItem跟随
     public GameObject InventoryBarDraggedItem;
@@ -67,7 +65,7 @@ public class UIInventoryBar : MonoBehaviour
     #region 物品栏UI的更新和清除
     
     //更新物品栏，每次更新物品栏，都会先将物品栏清空再根据inventoryList重新绘制
-    private void InventoryUpdated(List<InventoryItem> inventoryList)
+    public void InventoryUpdated(List<InventoryItem> inventoryList)
     {
         ClearInventorySlots();
 
@@ -102,6 +100,7 @@ public class UIInventoryBar : MonoBehaviour
     //用来初始化物品栏，将物品栏清空，每次更新物品栏都会清空再重新绘制
     private void ClearInventorySlots()
     {
+        Debug.Log("123");
         if (inventorySlot.Length > 0)
         {
             for (int i = 0; i < inventorySlot.Length; i++)
@@ -191,11 +190,11 @@ public class UIInventoryBar : MonoBehaviour
         int len = Mathf.Min(InventoryManager.Instance.playerInventoryList.Count, 12);
         if (t>0.05)
         {
-            itemPosition = (itemPosition + 1 + len) % len;
+            itemPosition = (itemPosition - 1 + len) % len;
         }
         else if(t<-0.05)
         {
-            itemPosition = (itemPosition - 1 + len) % len;
+            itemPosition = (itemPosition + 1 + len) % len;
         }
         
         inventorySlot[itemPosition].isSelected = true;
@@ -204,6 +203,20 @@ public class UIInventoryBar : MonoBehaviour
         
         InventoryManager.Instance.SetSelectedInventoryItem(
             InventoryManager.Instance.playerInventoryList[itemPosition].itemCode);
+
+        var itemDetails =
+            InventoryManager.Instance.GetItemDetails(InventoryManager.Instance.playerInventoryList[itemPosition]
+                .itemCode);
+        
+        if (itemDetails.itemType == ItemType.材料 || itemDetails.itemType == ItemType.果实 || 
+            itemDetails.itemType == ItemType.种子)
+        {
+            Player.Instance.ShowCarriedItem(itemDetails.itemCode);
+        }
+        else
+        {
+            Player.Instance.ClearCarriedItem();
+        }
     }
     
     
@@ -239,6 +252,18 @@ public class UIInventoryBar : MonoBehaviour
         {
             inventorySlot[i].ClearSelectedItem();
         }
+    }
+
+
+    public int GetCurrentSelectedNumber()
+    {
+        for (int i = 0; i < inventorySlot.Length; i++)
+        {
+            if (inventorySlot[i].isSelected)
+                return i;
+        }
+
+        return -1;
     }
 
 

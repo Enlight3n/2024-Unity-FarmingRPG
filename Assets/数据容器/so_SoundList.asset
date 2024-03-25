@@ -126,10 +126,10 @@ MonoBehaviour:
     soundDescription: 
     soundPitchRandomVariationMin: 1
     soundPitchRandomVariationMax: 1
-    soundVolume: 0.4
+    soundVolume: 0.6
   - soundName: 2010
     soundClip: {fileID: 8300000, guid: 1c2c169ae53feac4ba845f98fdc7c109, type: 3}
     soundDescription: 
     soundPitchRandomVariationMin: 1
     soundPitchRandomVariationMax: 1
-    soundVolume: 0.4
+    soundVolume: 0.6
