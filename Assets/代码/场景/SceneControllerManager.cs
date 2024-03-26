@@ -38,8 +38,6 @@ public class SceneControllerManager : SingletonMonoBehaviour<SceneControllerMana
 
         yield return StartCoroutine(Fade(1f));
         
-        //保存场景数据
-        SaveLoadManager.Instance.StoreCurrentSceneData();
 
         Player.Instance.gameObject.transform.position = spawnPosition;
         
@@ -53,8 +51,6 @@ public class SceneControllerManager : SingletonMonoBehaviour<SceneControllerMana
         
         EventHandler.CallAfterSceneLoadEvent();
         
-        //恢复场景数据
-        SaveLoadManager.Instance.ReStoreCurrentSceneData();
 
         yield return StartCoroutine(Fade(0f));
         

@@ -100,7 +100,6 @@ public class UIInventoryBar : MonoBehaviour
     //用来初始化物品栏，将物品栏清空，每次更新物品栏都会清空再重新绘制
     private void ClearInventorySlots()
     {
-        Debug.Log("123");
         if (inventorySlot.Length > 0)
         {
             for (int i = 0; i < inventorySlot.Length; i++)

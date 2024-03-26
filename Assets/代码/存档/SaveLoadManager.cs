@@ -28,16 +28,6 @@ public class SaveLoadManager : SingletonMonoBehaviour<SaveLoadManager>
         }
     }
 
-
-    public void ReStoreCurrentSceneData()
-    {
-        
-    }
-
-    public void StoreCurrentSceneData()
-    {
-        
-    }
     
     #region 从文件中加载和保存
 
@@ -64,7 +54,6 @@ public class SaveLoadManager : SingletonMonoBehaviour<SaveLoadManager>
 
     public void SaveDataToFile()
     {
-        gameSave = new GameSave();
         
         foreach (var iSavableObject in iSavableObjectList)
         {

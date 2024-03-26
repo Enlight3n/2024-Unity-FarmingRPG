@@ -1020,14 +1020,14 @@ public class Player : SingletonMonoBehaviour<Player>, ISavable
     {
         var temp = transform.position;
         
-        SaveLoadManager.Instance.gameSave.playerPosition = new Vector3Serializable(temp.x, temp.y, temp.z);
+        gameSave.playerPosition = new Vector3Serializable(temp.x, temp.y, temp.z);
     }
     
     public void ILoad(GameSave gameSave)
     {
-        var temp = SaveLoadManager.Instance.gameSave.playerPosition;
-        
-        transform.SetPositionAndRotation(new Vector3(temp.x, temp.y, temp.z), Quaternion.identity);
+        var temp = gameSave.playerPosition;
+
+        transform.position = new Vector3(temp.x, temp.y, temp.z);
     }
     
     #endregion
